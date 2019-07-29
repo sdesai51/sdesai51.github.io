@@ -1,0 +1,197 @@
+@charset "UTF-8";
+
+@font-face {
+	font-family: 'deja vu sans';
+	src: url('fonts/dejavusans-webfont.ttf');
+}
+
+body {
+	color: black;
+	font-family: 'Open Sans', sans-serif;
+	margin-left: 3%;
+	margin-right: 4%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	text-align: justify;
+}
+
+a, a:link, a:visited, a:active {
+	color: #CA4164;
+	text-decoration: none;
+}
+
+a:hover {
+	color: black;
+}
+
+img {
+	width: 100%;
+}
+
+#header {
+	border-bottom: solid thick;
+	border-bottom-color: #CA4164;
+	display: flex;
+}
+
+#page-head {
+	font-family: 'deja vu sans', "DejaVu Sans", "Gill Sans", Helvetica, Arial, sans-serif;
+	font-size: 3em;
+}
+
+#page-head a {
+	color: black;
+}
+
+#top-links {
+	display: flex;
+	flex-direction: column-reverse;
+	font-family: 'deja vu sans', "DejaVu Sans", "Gill Sans", Helvetica, Arial, sans-serif;
+	font-weight: bolder;
+	margin-left: auto;
+	text-transform: lowercase;
+}
+
+#top-links span {
+	margin-bottom: 10%;
+}
+
+#content {
+	display: flex;
+	margin-top: 2%;
+	margin-bottom: 4%;
+}
+
+#left-bar {
+	width: 20%;
+}
+
+#right-bar {
+	margin-left: auto;
+	width: 75%;
+}
+
+.section-head {
+	border-bottom: solid thin black;
+	color: grey;
+	font-family: 'deja vu sans', "DejaVu Sans", "Gill Sans", Helvetica, Arial, sans-serif;
+	font-size: 2em;
+	margin-bottom: 18px;
+	text-transform: lowercase;
+}
+
+#headshot {
+	margin-bottom: 5%;
+}
+
+#contact-box {
+	clear: both;
+	font-size: 90%;
+	line-height: 0.5;
+}
+
+#contact-title {
+	color: #CA4164;
+	float: left;
+	font-weight: bold;
+}
+
+#contact-info {
+	float: right;
+	text-align: right;
+}
+
+#contact-info a {
+	color: #231f20;
+}
+
+#contact-info a:hover {
+	color: #b76378;
+}
+
+#intro {
+	margin-bottom: 1%;
+}
+
+#project-box {
+	display: flex;
+	flex-direction: column;
+}
+
+.project-entry {
+	display: flex;
+	margin-bottom: 2%;
+}
+
+.project-image {
+	width: 28%;
+}
+
+.project-image img {
+	width: 100%;
+	border: 1px solid grey;
+}
+
+.project-text {
+	margin-left: auto;
+	width: 70%;
+}
+.project-title {
+	color: #007aaf;
+	font-family: 'Deja Vu Sans', "DejaVu Sans", "Gill Sans", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	font-size: 90%;
+}
+
+.project-authors {
+	font-size: 70%;
+	margin-top: 3px;
+	margin-bottom: 4px;
+	text-transform: uppercase;
+}
+
+.project-description {
+	font-size: 90%;
+}
+.view-more {
+	border: 1px solid #CA4164;
+	font-family: 'deja vu sans', "DejaVu Sans", "Gill Sans", Helvetica, Arial, sans-serif;
+	font-size: 15px;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	padding: 10px 24px;
+	text-transform: uppercase;
+	width: 40%;
+}
+
+.view-more:hover {
+	color: white;
+	background-color: #CA4164;
+	-webkit-transition: background-color .15s, color .15s, border-color .15s;
+    -o-transition: background-color .15s, color .15s, border-color .15s;
+    transition: background-color .15s, color .15s, border-color .15s;
+    transition-property: background-color, color, border-color;
+    transition-duration: 0.15s, 0.15s, 0.15s;
+    transition-timing-function: ease, ease, ease;
+    transition-delay: 0s, 0s, 0s;
+}
+
+#page-content {
+	display: flex;
+	justify-content: center;
+	margin-top: 2%;
+	margin-bottom: 4%;
+}
+
+#inner-content {
+	width: 70%;
+}
+
+#resume {
+	width: 70%;
+}
+
+#resume img {
+	width: 100%;
+	border: 1px solid grey;
+}
